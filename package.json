@@ -20,7 +20,12 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.2.11",
+    "supabase": "^2.109.1",
     "tailwindcss": "^4",
     "typescript": "^5"
+  },
+  "overrides": {
+    "sharp": ">=0.35.0",
+    "postcss": ">=8.5.12"
   }
 }
